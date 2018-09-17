@@ -11,6 +11,7 @@ require '../PHPMailer/src/SMTP.php';
 
 // Cuenta: tasksiqor@gmail.com
 // Contraeña: Tareas1260*
+// Tareas2020*P
 
 function encrypt_decrypt($action, $string) {
   $output = false;
@@ -350,7 +351,7 @@ function encrypt_decrypt($action, $string) {
         $mail->Host = 'ssl://smtp.1and1.es';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'tasksiqor@valoresmx.com';                 // SMTP username
-        $mail->Password = 'Tareas1260*';                           // SMTP password
+        $mail->Password = 'Tareas2020*P';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 25; // TCP port to connect to
         $mail->setFrom('tasksiqor@valoresmx.com', 'Tareas IQor');  
@@ -406,7 +407,7 @@ function encrypt_decrypt($action, $string) {
         //$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         //$mail->SMTPAuth = true;                               // Enable SMTP authentication
         //$mail->Username = 'tasksiqor@gmail.com';                 // SMTP username
-        //$mail->Password = 'Tareas1260*';                           // SMTP password
+        //$mail->Password = 'Tareas2020*P';                           // SMTP password
         //$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         //$mail->Port = 587;                                    // TCP port to connect to
         //$mail->setFrom('tasksiqor@gmail.com', 'Tareas IQor');
@@ -416,7 +417,7 @@ function encrypt_decrypt($action, $string) {
         $mail->Host = 'ssl://smtp.1and1.es';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'tasksiqor@valoresmx.com';                 // SMTP username
-        $mail->Password = 'Tareas1260*';                           // SMTP password
+        $mail->Password = 'Tareas2020*P';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 25; // TCP port to connect to
         $mail->setFrom('tasksiqor@valoresmx.com', 'Tareas IQor');  
@@ -946,7 +947,7 @@ function encrypt_decrypt($action, $string) {
       $mail->Host = 'ssl://smtp.1and1.es';  // Specify main and backup SMTP servers
       $mail->SMTPAuth = true;                               // Enable SMTP authentication
       $mail->Username = 'tasksiqor@valoresmx.com';                 // SMTP username
-      $mail->Password = 'Tareas1260*';                           // SMTP password
+      $mail->Password = 'Tareas2020*P';                           // SMTP password
       $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
       $mail->Port = 25; // TCP port to connect to
       $mail->setFrom('tasksiqor@valoresmx.com', 'Tareas IQor');  

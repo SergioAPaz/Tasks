@@ -7,6 +7,12 @@ $(document).ready(function () {
            $( row ).css( "background-color", "#ffcdd2  " );
            
        }
+        if ( data["10"] == "<label>Si</label>" ) {
+        
+           $( row ).css( "background-color", "#ccff90  " );
+           
+       }
+        
    },
   } );
 });
@@ -14,9 +20,15 @@ $(document).ready(function () {
   $('#table23').DataTable( {
       "order": [[ 0, "desc" ]],
       "createdRow": function( row, data, dataIndex ) {
-       if ( data["9"] == "<label>Si</label>" ) {
+      
+         if ( data["9"] == "<label>Si</label>" ) {
         
            $( row ).css( "background-color", "#ffcdd2  " );
+           
+       }
+          if ( data["10"] == "<label>Si</label>" ) {
+        
+           $( row ).css( "background-color", "#ccff90  " );
            
        }
    },

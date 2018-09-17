@@ -49,12 +49,12 @@ $Vizualizado3 = encrypt_decrypt('encrypt', $Vizualizado2);
 echo '$(document).ready(function () {    document.getElementById("<?php echo $Usuario56165; ?>").selected = "true";  });';
 
 $TareasAsignadas=<<<SQL
-SELECT * FROM `tareascargadas` WHERE `Asignador`='$decrypted_txt' AND `Asignado` != '$decrypted_txt' 
+SELECT * FROM `tareascargadas` WHERE `Asignador`='$decrypted_txt' AND `Asignado` != '$decrypted_txt'
 SQL;
 $TareasAsignadas2 =mysqli_query($connect,$TareasAsignadas);
 
 $TareasQueHaAsignado=<<<SQL
-SELECT * FROM `tareascargadas` WHERE `Asignado`='$decrypted_txt' AND `AsignadoR` != '$decrypted_txt'
+SELECT * FROM `tareascargadas` WHERE `Asignado`='$decrypted_txt' 
 SQL;
 $TareasQueHaAsignado2 =mysqli_query($connect,$TareasQueHaAsignado);
 

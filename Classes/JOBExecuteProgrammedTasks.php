@@ -33,7 +33,7 @@ require '../PHPMailer/src/SMTP.php';
         $mail->Host = 'ssl://smtp.1and1.es';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'tasksiqor@valoresmx.com';                 // SMTP username
-        $mail->Password = 'Tareas1260*';                           // SMTP password
+        $mail->Password = 'Tareas2020*P';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 25; // TCP port to connect to
         $mail->setFrom('tasksiqor@valoresmx.com', 'Tareas IQor');  
@@ -42,7 +42,7 @@ require '../PHPMailer/src/SMTP.php';
         //$mail->addAddress('', 'Joe User'); 
         // $mail->addReplyTo('', 'Information');
         // $mail->addCC('');
-        // $mail->addBCC('');
+        $mail->addBCC('sergio.pazholguin@iqor.com','SergioPaz');
 
         $mail->isHTML(true);                                
         $mail->Subject = 'Tienes una nueva tarea de '.$results2['FullName'];
@@ -86,7 +86,7 @@ require '../PHPMailer/src/SMTP.php';
         $mail->Host = 'ssl://smtp.1and1.es';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'tasksiqor@valoresmx.com';                 // SMTP username
-        $mail->Password = 'Tareas1260*';                           // SMTP password
+        $mail->Password = 'Tareas2020*P';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 25; // TCP port to connect to
         $mail->setFrom('tasksiqor@valoresmx.com', 'Tareas IQor');  
@@ -95,7 +95,7 @@ require '../PHPMailer/src/SMTP.php';
         //$mail->addAddress('', 'Joe User'); 
         // $mail->addReplyTo('', 'Information');
         // $mail->addCC('');
-        // $mail->addBCC('');
+        $mail->addBCC('sergio.pazholguin@iqor.com','SergioPaz');
 
         $mail->isHTML(true);                                
         $mail->Subject = 'Hoy vence una de tus tareas';
